@@ -115,20 +115,7 @@ if (scrollTop) {
 }
 
 
-/*Sticky Navbar */
 
-// Sayfa yüklendiğinde Navbar'ın konumunu kontrol etmek için bir fonksiyon tanımlayalım
-function checkNavbarPosition() {
-    const navbar = document.getElementById('navbar');
-    const header = document.getElementById('header');
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    const isScrolled = scrollTop > 180;
-    header.classList.toggle('navbar-scrolled', isScrolled);
-  }
-  
-  // Sayfa yüklendiğinde ve sayfa scroll edildiğinde Navbar'ın konumunu kontrol etmek için event listener ekleyelim
-  document.addEventListener('DOMContentLoaded', checkNavbarPosition);
-  window.addEventListener('scroll', checkNavbarPosition);
 
 
 /**
