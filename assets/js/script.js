@@ -16,6 +16,14 @@ $(document).ready(function () {
         },
     });
     glide.mount();
+
+
+    $(".whatsapp_float").click(function() {
+      var phoneNumber = "+905324328985";
+      var message = "Merhaba!, Bilgi Almak İstiyorum";
+  
+      window.open("https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message);
+    });
 });
 
 //swiper kullanımı
