@@ -1160,13 +1160,36 @@ h6 {
     width: 100%;
 }
 
+.text-green{
+    color: var(--green);
+}
+
 .text-white{
     color:white;
 }
 
+.text-red{
+    color: var(--red);
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+
+.bg-red{
+    background-color: var(--red);
+}
+
+.pt-10{
+    padding-top: 10%;
+}
+.pb-10{
+    padding-bottom: 10%;
+}
+
 /*Banner*/
 .banner {
-    background: url(../images/background.png) no-repeat center center fixed;
+    background:  no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     padding-top: 3em;
@@ -1475,4 +1498,20 @@ button.contact_form_submit {
   
   .whatsapp-icon {
     margin-top: 12px;
+  }
+
+  /*Video Banner*/
+  .video-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }

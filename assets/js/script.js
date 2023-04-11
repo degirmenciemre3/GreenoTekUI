@@ -1,5 +1,6 @@
-// Carousel İçin Glide.js Kullanımı
+
 $(document).ready(function () {
+  // Carousel İçin Glide.js Kullanımı
     var glide = new Glide(".glide", {
         type: "carousel",
         perView: 3,
