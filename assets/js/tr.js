@@ -69,7 +69,19 @@ window.lang = {
         imgp2:`Power<span class="text-green">Board</span>'u vida ile sabitleyin`,
         imgp3:"Tak ve çalıştır kablo ağ sistemi ile bağlantıyı gerçekleştirin",
         imgp4:`Power<span class="text-green">Board</span>'un yüzeyine alçı uygulayın (standart tavan alçı panelleriyle aynı)`,
-        certificate: "Sertifikalarımız"
+        certificate: "Sertifikalarımız",
+
+        comfortscrim: {
+            comfortscrimbannerh5: "DÜŞÜK VOLTAJLI ISITMA",
+            comfortscrimp1: 'Comfort<span class = "text-green">Scrim</span><span> ™ ️ </span>, duvarlara, tavana ve zemine kolayca entegre edilebilen düşük voltajlı bir konut ısınma filmimizdir ve rahat bir ışıtmalı ısıtma etkisi yaratır.',
+            comfortscrimsection1h1: "Tam Entegre Düşük Voltajlı Sistem",
+            comfortscrimsection1b: 'Perforasyonu ve benzersiz yüzey kaplamalarıyla düşük voltajlı Comfort<span class = "text-green">Scrim</span> örtüleri, sıva, fayans yapıştırıcıları, çatlak önleyici harç vb. gibi geniş bir yelpazeye gömülebilir. Bu da onun yüzeye yakın kurulmasına olanak tanır, reaksiyon süresini artırırken zaman ve enerji tasarrufu sağlar ve sıcak bir ışıtmalı ısıtma etkisi yaratır.',
+            thick: "kalınlık",
+            annualrepairs: "Yıllık onarım gerektirmez",
+            surfaceheating: "Tam yüzey ısıtması",
+            lifespan: "10+ yıl ömrü",
+            thesystem: "Sistem",
+       }
     },
     ubisys:{
         ubisyssection1h2:"Büyük avantajları olan yenilikçi teknoloji.",

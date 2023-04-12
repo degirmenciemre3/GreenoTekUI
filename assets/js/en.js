@@ -70,7 +70,19 @@ window.lang = {
         imgp2:'Screw Power<span class="text-green">Board</span> in place',
         imgp3:"Connect the Plug-and-Play cable tree system ",
         imgp4:'Apply plaster on the surface of Power<span class="text-green">Board</span> (same as standard ceiling gypsum board)',
-        certificate: "Our Certificates"
+        certificate: "Our Certificates",
+
+        comfortscrim:{
+            comfortscrimbannerh5:"LOW VOLTAGE HEATING",
+            comfortscrimp1:'Comfort<span class="text-green">Scrim</span><span>™️</span>is our low voltage residential heating film, easily integrated into walls, ceiling, and flooring generating a comfortable radiant heating effect',
+            comfortscrimsection1h1:"Fully Integrated Low Voltage System",
+            comfortscrimsection1b:`Our low voltage Comfort<span class="text-green">Scrim</span> with its perforation and unique surface coatings can easily be embedded in a wide range of coatings such as plaster, tile adhesives, anti-crack mortar etc. In turn allowing it to be installed near the surface increasing reaction time and saving time and energy all the while creating a warm radiant heating effect.`,
+            thick:"thick",
+            annualrepairs:"No annual repairs",
+            surfaceheating:"Full surface heating",
+            lifespan:"10+year lifespan",
+            thesystem:"The System",
+        },
     },
 
     ubisys:{

@@ -67,6 +67,17 @@ $(document).ready(function() {
     $(".laminaheatimgp4").html(lang.laminaheat.imgp4);
     $(".certificate").text(lang.laminaheat.certificate);
 
+    $(".comfortscrimbannerh5").text(lang.laminaheat.comfortscrim.comfortscrimbannerh5);
+    $(".comfortscrimp1").html(lang.laminaheat.comfortscrim.comfortscrimp1);
+    $(".comfortscrimsection1h1").text(lang.laminaheat.comfortscrim.comfortscrimsection1h1);
+    $(".comfortscrimsection1b").html(lang.laminaheat.comfortscrim.comfortscrimsection1b);
+    $(".thick").text(lang.laminaheat.comfortscrim.thick);
+    $(".annualrepairs").text(lang.laminaheat.comfortscrim.annualrepairs);
+    $(".surfaceheating").text(lang.laminaheat.comfortscrim.surfaceheating);
+    $(".lifespan").text(lang.laminaheat.comfortscrim.lifespan);
+    $(".thesystem").text(lang.laminaheat.comfortscrim.thesystem);
+
+
     $(".ubisyssection1h2").text(lang.ubisys.ubisyssection1h2);
     $(".ubisyssection1p1").text(lang.ubisys.ubisyssection1p1);
     $(".ubisyssection2h2").text(lang.ubisys.ubisyssection2h2);
@@ -112,4 +123,6 @@ $(document).ready(function() {
     $(".smarthometab2h2").text(lang.ubisys.smarthomedetail.smarthometab2h2);
     $(".smarthometab2p").text(lang.ubisys.smarthomedetail.smarthometab2p);
     $(".DashboardScreenshot").text(lang.ubisys.smarthomedetail.DashboardScreenshot);
+
+
 });
