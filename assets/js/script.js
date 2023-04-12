@@ -28,9 +28,9 @@ $(document).ready(function () {
 });
 
 //swiper kullanımı
-new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    loop: true,
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 4,
+    loop: false,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
