@@ -33,8 +33,8 @@
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="index.html">Ana Sayfa</a></li>
-                    <li class="dropdown" ><a href="#" class="active"><span>Çözümlerimiz</span><i
+                    <li><a href="index.html" class="navhome">Ana Sayfa</a></li>
+                    <li class="dropdown"><a href="#"><span class="navsolution active">Çözümlerimiz</span><i
                         class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="laminaheat.html">LaminaHeat</a></li>
@@ -55,11 +55,17 @@
                         </ul>
                     
                     </li>
-                    <li><a href="index.html#about">Hakkımızda</a></li>
-                    <li><a href="#">Referanslarımız</a>
+                    <li><a href="index.html#about" class="navaboutus">Hakkımızda</a></li>
+                    <li><a href="#" class="navreferences">Referanslarımız</a>
                         
                     </li>
-                    <li><a href="contact.html">İletişim</a></li>
+                    <li><a href="contact.html" class="navcommunation">İletişim</a></li>
+                    <li>
+                        <select id="language-select">
+                            <option value="TR">Türkçe</option>
+                            <option value="EN">English</option>
+                          </select>
+                    </li>
                 </ul>
             </nav><!-- .navbar -->
 
@@ -96,8 +102,8 @@
                 <img src="assets/images/ubisys/Haus_oben_neu-6c90dcd9.webp" class="img-fluid" alt="">
             </div>
             <div class="col-md-6 p-5" data-aos="fade-down" data-aos-delay="200">
-                <h2>Innovative technology with major advantages.</h2>
-                <p>Thanks to wireless technology, the ubisys Smart Home is the ideal retrofit solution, thus also suitable for existing buildings. In addition to retrofitting, the technology offers further advantages: cost reduction, flexibility in planning, sustainability, etc.</p>
+                <h2 class="ubisyssection1h2">Innovative technology with major advantages.</h2>
+                <p class="ubisyssection1p1">Thanks to wireless technology, the ubisys Smart Home is the ideal retrofit solution, thus also suitable for existing buildings. In addition to retrofitting, the technology offers further advantages: cost reduction, flexibility in planning, sustainability, etc.</p>
             </div>
         </div>
     </div>
@@ -105,10 +111,10 @@
     <section class="container bg-white">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 p-5" data-aos="fade-up" data-aos-delay="200">
-                <h2>Smart Home App</h2>
-                <h4>Your entire home at a glance – anytime, anywhere.</h4>
-                <p>Control and monitor your home via smartphone or tablet.</p>
-                <a href="smarthomedetail.html" data-aos="fade-up" data-aos-delay="200" class="btn"
+                <h2 class="ubisyssection2h2">Smart Home App</h2>
+                <h4 class="ubisyssection2h4">Your entire home at a glance – anytime, anywhere.</h4>
+                <p class="ubisyssection2p1">Control and monitor your home via smartphone or tablet.</p>
+                <a href="smarthomedetail.html" data-aos="fade-up" data-aos-delay="200" class="btn moredetail"
                             style="background-color:var(--green); color:white" data-aos="fade-up">More Details</a>
             </div>
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -125,13 +131,13 @@
 
                 <li class="nav-item col-6">
                     <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                        <h4>Installation</h4>
+                        <h4 class="Installation">Installation</h4>
                     </a>
                 </li><!-- End tab nav item -->
 
                 <li class="nav-item col-6">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                        <h4>System Overview</h4>
+                        <h4 class="ubisystab2">System Overview</h4>
                     </a><!-- End tab nav item -->
             </ul>
 
@@ -141,8 +147,8 @@
                     <div class="row container">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center row"
                             data-aos="fade-up" data-aos-delay="100">
-                            <h3>Your invisible Smart Home.</h3>
-                            <p class="fst-italic">
+                            <h3 class="ubisystab1h3">Your invisible Smart Home.</h3>
+                            <p class="fst-italic ubisystab1p1">
                                 The ubisys Smart Home primarily is a flush-mounted solution. The components can be
                                 retrofitted – and disappear hidden away behind your switches or push buttons.
                             </p>
@@ -156,11 +162,11 @@
                         <div class="container">
                             <div class="row content">
                                 <div class="col-lg-12">
-                                    <h3>Installation</h3>
+                                    <h3 class="Installation">Installation</h3>
                                 </div>
                                 <div class="col-lg-12 pt-4 py-5 pt-lg-0">
-                                    <p>
-                                        ubisys flush-mounted components can be installed behind any light switch, push
+                                    <p class="ubisystab1Installationp1">
+                                        Ubisys flush-mounted components can be installed behind any light switch, push
                                         button, or socket as well as wall or ceiling outlet – No need to renew your
                                         existing switches and sockets. The particularly compact design simplifies the
                                         installation.
@@ -173,39 +179,39 @@
                     <section class="container bg-gray">
                         <div class="row content">
                             <div class="col-lg-12">
-                                <h3>Advantages</h3>
+                                <h3 class="Advantages">Advantages</h3>
                             </div>
                             <div class="col-lg-12 pt-4 py-5 pt-lg-0">
                                 <div class="row">
                                     <div class="col-md-4 my-4">
                                         <img src="https://www.ubisys.de/wp-content/uploads/Maße.svg" class="d-block" alt="">
-                                        <h6 class="mt-3">Minimal size</h6>
-                                        <p>Due to miniaturization the devices can be retrofitted easily .</p>
+                                        <h6 class="mt-3 Minimalsize">Minimal size</h6>
+                                        <p class="ubisysminimalsizep1">Due to miniaturization the devices can be retrofitted easily.</p>
                                     </div>
                                     <div class="col-md-4 my-4">
                                         <img src="https://www.ubisys.de/wp-content/uploads/Werkzeug.svg" alt="">
-                                        <h6 class="mt-3">Wiring</h6>
-                                        <p>No additional wiring required. This saves cost and time.</p>
+                                        <h6 class="mt-3 Wiring">Wiring</h6>
+                                        <p class="ubisysWiringp1">No additional wiring required. This saves cost and time.</p>
                                     </div>
                                     <div class="col-md-4 my-4">
                                         <img src="https://www.ubisys.de/wp-content/uploads/Häkchen.svg" alt="">
-                                        <h6 class="mt-3">Flexibility</h6>
-                                        <p>When retrofitting you already are flexible during the planning phase.</p>
+                                        <h6 class="mt-3 Flexibility">Flexibility</h6>
+                                        <p class="ubisysFlexibilityp1">When retrofitting you already are flexible during the planning phase.</p>
                                     </div>
                                     <div class="col-md-4 my-4">
                                         <img src="https://www.ubisys.de/wp-content/uploads/Taster.svg" alt="">
-                                        <h6 class="mt-3">Switch product ranges</h6>
-                                        <p>The components can be installed regardless to switch product ranges.</p>
+                                        <h6 class="mt-3 productranges">Switch product ranges</h6>
+                                        <p class="ubisysproductrangesP1">The components can be installed regardless to switch product ranges.</p>
                                     </div>
                                     <div class="col-md-4 my-4">
                                         <img src="https://www.ubisys.de/wp-content/uploads/Häkchen.svg" alt="">
-                                        <h6 class="mt-3">Individual retrofitting</h6>
-                                        <p>Upgrade your system bit by bit with additional components. Depending on requirements and budget.</p>
+                                        <h6 class="mt-3 retrofitting">Individual retrofitting</h6>
+                                        <p class="ubisysretrofittingp1">Upgrade your system bit by bit with additional components. Depending on requirements and budget.</p>
                                     </div>
                                     <div class="col-md-4 my-4">
                                         <img src="https://www.ubisys.de/wp-content/uploads/Reiheneinbau.svg" alt="">
-                                        <h6 class="mt-3">Rail mounted devices</h6>
-                                        <p>The flush-mounted versions are also available as DIN rail mounted devices for the control cabinet.</p>
+                                        <h6 class="mt-3 mounteddevices">Rail mounted devices</h6>
+                                        <p class="ubisysmounteddevicesp1">The flush-mounted versions are also available as DIN rail mounted devices for the control cabinet.</p>
                                     </div>
                                 </div>   
                             </div>
@@ -217,8 +223,8 @@
                 <div class="tab-pane" id="tab-2">
                     <div class="row bg-myblack text-gray-color container">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 ml-2 mt-lg-0 d-flex flex-column justify-content-center">
-                            <h3>This is how your ubisys Smart Home is set up.</h3>
-                            <p class="fst-italic">
+                            <h3 class="ubisystab2h3">This is how your ubisys Smart Home is set up.</h3>
+                            <p class="fst-italic ubisystab2p1">
                                 The intelligent system from ubisys connects your electrical appliances wirelessly. This way, multiple devices can be controlled and monitored simultaneously. Via a connection to the Internet, access on the go is also possible.
                             </p>
                         </div>
@@ -227,27 +233,27 @@
                         </div>
                     </div>
                     <div class="container py-5">
-                        <h3>Here’s how it works:</h3>
+                        <h3 class="ubisystab2h32">Here’s how it works:</h3>
                         <div class="row justify-content-center text-center">
                             <div class="col-md-3 my-4">
                                 <img src="assets/images/ubisys/icon/Gateway-anschliessen.svg" width="128.999" height="129" alt loading="lazy">
-                                <h6 class="mt-5">1. Connect gateway</h6>
-                                <p>Link the ubisys gateway to your DSL / UMTS / LTE router.</p>
+                                <h6 class="mt-5 ubisystab2howworks1">1. Connect gateway</h6>
+                                <p class="ubisystab2howworks1p">Link the ubisys gateway to your DSL / UMTS / LTE router.</p>
                             </div>
                             <div class="col-md-3 my-4">
                                 <img src="assets/images/ubisys/icon/App-herunterladen.svg" width="128.999" height="129" alt loading="lazy">
-                                <h6 class="mt-5">2. Download App</h6>
-                                <p>Download the ubisys app and Connect it to your gateway.</p>
+                                <h6 class="mt-5 ubisystab2howworks2">2. Download App</h6>
+                                <p class="ubisystab2howworks2p">Download the ubisys app and Connect it to your gateway.</p>
                             </div>
                             <div class="col-md-3 my-4">
                                 <img src="assets/images/ubisys/icon/Installieren.svg" width="128.999" height="129" alt loading="lazy">
-                                <h6 class="mt-5">3. Installation of components</h6>
-                                <p>Install smart home components for your intelligent home.</p>
+                                <h6 class="mt-5 ubisystab2howworks3">3. Installation of components</h6>
+                                <p class="ubisystab2howworks3p">Install smart home components for your intelligent home.</p>
                             </div>
                             <div class="col-md-3 my-4">
                                 <img src="assets/images/ubisys/icon/Konfigurieren.svg" width="128.999" height="129" alt loading="lazy">
-                                <h6 class="mt-5">4. Setting up your smart home</h6>
-                                <p>After installation, configure your smart home according to your ideas using the ubisys app.</p>
+                                <h6 class="mt-5 ubisystab2howworks4">4. Setting up your smart home</h6>
+                                <p class="ubisystab2howworks4p">After installation, configure your smart home according to your ideas using the ubisys app.</p>
                             </div>
                         </div>
                     </div>
@@ -272,18 +278,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-widget">
-                        <h3 class="footer-title">Hakkımızda</h3>
-                        <p>Biz Akıllı Ev Sistemleri olarak 2023 yılından bu yana ev otomasyon sistemleri konusunda
+                        <h3 class="footer-title navaboutus">Hakkımızda</h3>
+                        <p class="footaboutusdetail">Biz Akıllı Ev Sistemleri olarak 2023 yılından bu yana ev otomasyon sistemleri konusunda
                             hizmet vermekteyiz. Amacımız müşterilerimizin evlerini daha konforlu ve güvenli hale
                             getirmektir.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="footer-widget">
-                        <h3 class="footer-title">İletişim</h3>
+                        <h3 class="footer-title navcommunation">İletişim</h3>
                         <div class="contact-info">
-                            <p><i class="fa fa-map-marker"></i> Yenikaraman Mah. 4.Kantar Sok. No:2 Asya Plaza No:101
-                                16170 Osmangazi/Bursa</p>
+                            <p><i class="fa fa-map-marker"></i> Yenikaraman Mah. 4.Kantar Sok. No:2 Asya Plaza No:101 16170 Osmangazi/Bursa</p>
                             <p><i class="fa fa-envelope"></i>info@greenotek.com</p>
                             <p><i class="fa fa-phone"></i> +90 532 432 89 85</p>
                         </div>
@@ -291,10 +296,10 @@
                 </div>
                 <div class="col-md-4">
                     <div class="footer-widget">
-                        <h3 class="footer-title">Bültenimize Abone Olun</h3>
+                        <h3 class="footer-title footsubscribe">Bültenimize Abone Olun</h3>
                         <div class="subscribe-form">
                             <form action="#">
-                                <input type="email" placeholder="E-posta adresinizi girin">
+                                <input class="mailplaceholder" type="email" placeholder="E-posta adresinizi girin">
                                 <button type="submit"><i class="fa fa-paper-plane"></i></button>
                             </form>
                         </div>
@@ -306,7 +311,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p>&copy; 2023 Akıllı Ev Sistemleri. Tüm hakları saklıdır.</p>
+                        <p class="copyright">&copy; 2023 Akıllı Ev Sistemleri. Tüm hakları saklıdır.</p>
                     </div>
                 </div>
             </div>

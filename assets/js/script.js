@@ -1,4 +1,15 @@
 
+//language
+function loadScript(language) {
+  console.log(language);
+  var script = document.createElement('script');
+  script.src = language === 'TR' ? 'assets/js/tr.js' : 'assets/js/en.js';
+  document.body.appendChild(script);
+
+  var scriptlang = document.createElement('script');
+  scriptlang.src = "assets/js/language.js";
+  document.body.appendChild(scriptlang);
+}
 $(document).ready(function () {
   // Carousel İçin Glide.js Kullanımı
     var glide = new Glide(".glide", {
@@ -16,8 +27,6 @@ $(document).ready(function () {
             },
         },
     });
-    glide.mount();
-
 
     $(".whatsapp_float").click(function() {
       var phoneNumber = "+905324328985";
@@ -25,7 +34,28 @@ $(document).ready(function () {
   
       window.open("https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message);
     });
+
+    //Switch Language
+    const savedLanguage = localStorage.getItem("language");
+    if (savedLanguage) {
+      // Kaydedilmiş dil seçimini seçim menüsünde seçili hale getir
+      $("#language-select").val(savedLanguage);
+    }
+    // Seçim menüsündeki değişiklikleri dinle
+    $("#language-select").change(function() {
+    console.log($(this).val());
+    // Seçilen dili yerel depolama özelliğinde sakla
+    localStorage.setItem("language", $(this).val());
+    setTimeout(function() {
+      location.reload()
+    }, 500);
+    });
+
+    loadScript(savedLanguage === '' || savedLanguage === null ? "TR" : savedLanguage);
+    
 });
+
+
 
 //swiper kullanımı
 var swiper = new Swiper(".mySwiper", {

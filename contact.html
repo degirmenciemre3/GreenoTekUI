@@ -35,8 +35,8 @@
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="index.html">Ana Sayfa</a></li>
-                    <li class="dropdown" ><a href="#" class="active"><span>Çözümlerimiz</span><i
+                    <li><a href="index.html" class="navhome">Ana Sayfa</a></li>
+                    <li class="dropdown"><a href="#"><span class="navsolution">Çözümlerimiz</span><i
                         class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="laminaheat.html">LaminaHeat</a></li>
@@ -57,11 +57,17 @@
                         </ul>
                     
                     </li>
-                    <li><a href="index.html#about">Hakkımızda</a></li>
-                    <li><a href="#">Referanslarımız</a>
+                    <li><a href="index.html#about" class="navaboutus">Hakkımızda</a></li>
+                    <li><a href="#" class="navreferences">Referanslarımız</a>
                         
                     </li>
-                    <li><a href="contact.html">İletişim</a></li>
+                    <li><a href="contact.html" class="navcommunation active">İletişim</a></li>
+                    <li>
+                        <select id="language-select">
+                            <option value="TR">Türkçe</option>
+                            <option value="EN">English</option>
+                          </select>
+                    </li>
                 </ul>
             </nav><!-- .navbar -->
 
@@ -74,7 +80,7 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1">
                     <div class="map_inner">
-                        <h4>Merkez Ofis</h4>
+                        <h4 class="centeroffice">Merkez Ofis</h4>
                         <div class="map_bind">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1523.1571691226443!2d28.992624354888132!3d40.224312671144105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca1435e3d69f37%3A0x570df62134eb0701!2sYenikaraman%2C%20Sanayi%20Cd.%20No%3A132%2C%2016170%20Osmangazi%2FBursa!5e0!3m2!1str!2str!4v1681117670217!5m2!1str!2str"
@@ -96,13 +102,13 @@
                             <div class="col-md-10">
                                 <div class="contact_form_inner">
                                     <div class="contact_field">
-                                        <h3>İletişim</h3>
-                                        <p>İstediğiniz zaman bizimle iletişime geçmekten çekinmeyin. Mümkün olan en kısa
+                                        <h3 class="navcommunation">İletişim</h3>
+                                        <p class="contactp1">İstediğiniz zaman bizimle iletişime geçmekten çekinmeyin. Mümkün olan en kısa
                                             sürede size geri döneceğiz!.</p>
-                                        <input type="text" class="form-control form-group" placeholder="İsim Soyisim" />
-                                        <input type="text" class="form-control form-group" placeholder="Mail" />
-                                        <textarea class="form-control form-group" placeholder="Mesaj"></textarea>
-                                        <button class="contact_form_submit">Gönder</button>
+                                        <input type="text" class="form-control form-group nameplaceholder" placeholder="İsim Soyisim" />
+                                        <input type="text" class="form-control form-group mailplaceholder" placeholder="Mail" />
+                                        <textarea class="form-control form-group contactmessage" placeholder="Mesaj"></textarea>
+                                        <button class="contact_form_submit contactsubmit">Gönder</button>
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +123,7 @@
                             </div>
                         </div>
                         <div class="contact_info_sec text-white">
-                            <h4>İletişim Bilgilerimiz</h4>
+                            <h4 class="contactinfo">İletişim Bilgilerimiz</h4>
                             <div class="d-flex info_single align-items-center">
                                 <i class="fas fa-headset"></i>
                                 <span>+90 532 432 89 85</span>
@@ -151,18 +157,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-widget">
-                        <h3 class="footer-title">Hakkımızda</h3>
-                        <p>Biz Akıllı Ev Sistemleri olarak 2023 yılından bu yana ev otomasyon sistemleri konusunda
+                        <h3 class="footer-title navaboutus">Hakkımızda</h3>
+                        <p class="footaboutusdetail">Biz Akıllı Ev Sistemleri olarak 2023 yılından bu yana ev otomasyon sistemleri konusunda
                             hizmet vermekteyiz. Amacımız müşterilerimizin evlerini daha konforlu ve güvenli hale
                             getirmektir.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="footer-widget">
-                        <h3 class="footer-title">İletişim</h3>
+                        <h3 class="footer-title navcommunation">İletişim</h3>
                         <div class="contact-info">
-                            <p><i class="fa fa-map-marker"></i> Yenikaraman Mah. 4.Kantar Sok. No:2 Asya Plaza No:101
-                                16170 Osmangazi/Bursa</p>
+                            <p><i class="fa fa-map-marker"></i> Yenikaraman Mah. 4.Kantar Sok. No:2 Asya Plaza No:101 16170 Osmangazi/Bursa</p>
                             <p><i class="fa fa-envelope"></i>info@greenotek.com</p>
                             <p><i class="fa fa-phone"></i> +90 532 432 89 85</p>
                         </div>
@@ -170,10 +175,10 @@
                 </div>
                 <div class="col-md-4">
                     <div class="footer-widget">
-                        <h3 class="footer-title">Bültenimize Abone Olun</h3>
+                        <h3 class="footer-title footsubscribe">Bültenimize Abone Olun</h3>
                         <div class="subscribe-form">
                             <form action="#">
-                                <input type="email" placeholder="E-posta adresinizi girin">
+                                <input class="mailplaceholder" type="email" placeholder="E-posta adresinizi girin">
                                 <button type="submit"><i class="fa fa-paper-plane"></i></button>
                             </form>
                         </div>
@@ -185,7 +190,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p>&copy; 2023 Akıllı Ev Sistemleri. Tüm hakları saklıdır.</p>
+                        <p class="copyright">&copy; 2023 Akıllı Ev Sistemleri. Tüm hakları saklıdır.</p>
                     </div>
                 </div>
             </div>
