@@ -45,7 +45,7 @@ $(document).ready(function() {
     $(".footsubscribe").text(lang.footer.subscribe);
     $(".mailplaceholder").attr("placeholder",lang.footer.mailplaceholder);
 
-    $(".copyright").text(lang.footer.copyright);
+    $(".copyright").html(lang.footer.copyright);
 
     $(".centeroffice").text(lang.contact.centeroffice);
     $(".contactp1").text(lang.contact.p1);

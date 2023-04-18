@@ -47,7 +47,7 @@ window.lang = {
         aboutusdetail:"We have been providing services on home automation systems since 2023 as Smart Home Systems. Our goal is to make our customers' homes more comfortable and safe.",
         subscribe:"Subscribe to Our Newsletter",
         mailplaceholder:"Enter your email address",
-        copyright:"© 2023 Smart Home Systems. All rights reserved."
+        copyright:'© 2023 <b><a class="text-white" href="index.html">GreenoTek</a></b> All rights reserved.'
     },
 
     contact:{

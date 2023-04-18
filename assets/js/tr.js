@@ -47,7 +47,7 @@ window.lang = {
         aboutusdetail:"Biz Akıllı Ev Sistemleri olarak 2023 yılından bu yana ev otomasyon sistemleri konusunda hizmet vermekteyiz. Amacımız müşterilerimizin evlerini daha konforlu ve güvenli hale getirmektir.",
         subscribe:"Bültenimize Abone Olun",
         mailplaceholder:"E-posta adresinizi girin",
-        copyright:"© 2023 Akıllı Ev Sistemleri. Tüm hakları saklıdır."
+        copyright:'© 2023 <b><a class="text-white" href="index.html">GreenoTek</a></b> Tüm hakları saklıdır.'
     },
 
     contact:{
@@ -60,7 +60,7 @@ window.lang = {
     },
     laminaheat:{
         bannerh5:'RADYANT KONFORLU <span class="text-green">ISINMA</span>',
-        p1:"Safetech teknolojisini kullanan ilk tak ve çalıştır radyant ısıtma sandwich paneli. Standart ve askılı tavanlardaki alçı panellerin kolayca değiştirilmesi için tasarlanmıştır. Bu nedenle piyasada kurulumu en kolay ısıtma sistemi olarak öne çıkmaktadır.",
+        p1:"Safetech teknolojimizi kullanan ilk fişe tak ve çalıştır radyant ısıtma sandviç panelidir. Standart ve asma tavanlarda standart alçı panellerin kolayca yerine konulabilmesi için tasarlanmıştır, bu nedenle piyasada kurulumu en kolay ısıtma sistemidir.",
         contactus:"Bize Ulaşın",
         WhyChoose:'Power<span class="text-green">Board</span> Neden Tercih Edilmeli?',
         Installation:"Kurulum",
@@ -73,9 +73,9 @@ window.lang = {
 
         comfortscrim: {
             comfortscrimbannerh5: "DÜŞÜK VOLTAJLI ISITMA",
-            comfortscrimp1: 'Comfort<span class = "text-green">Scrim</span><span> ™ ️ </span>, duvarlara, tavana ve zemine kolayca entegre edilebilen düşük voltajlı bir konut ısınma filmimizdir ve rahat bir ışıtmalı ısıtma etkisi yaratır.',
+            comfortscrimp1: 'Comfort<span class = "text-green">Scrim</span><span> ™ ️ </span>, duvarlara, tavana ve zemine kolayca entegre edilebilen düşük voltajlı bir konut ısınma filmimizdir.',
             comfortscrimsection1h1: "Tam Entegre Düşük Voltajlı Sistem",
-            comfortscrimsection1b: 'Perforasyonu ve benzersiz yüzey kaplamalarıyla düşük voltajlı Comfort<span class = "text-green">Scrim</span> örtüleri, sıva, fayans yapıştırıcıları, çatlak önleyici harç vb. gibi geniş bir yelpazeye gömülebilir. Bu da onun yüzeye yakın kurulmasına olanak tanır, reaksiyon süresini artırırken zaman ve enerji tasarrufu sağlar ve sıcak bir ışıtmalı ısıtma etkisi yaratır.',
+            comfortscrimsection1b: 'Düşük voltajlı Comfort<span class = "text-green">Scrim</span> ürünümüz, delikleri ve benzersiz yüzey kaplamaları sayesinde sıva, fayans yapıştırıcıları, çatlak önleyici harçlar gibi geniş bir yelpazede kaplamalara kolayca gömülebilir. Yüzeye yakın bir şekilde kurulum yapılabilmesine izin vererek reaksiyon süresini artırırken zaman ve enerji tasarrufu sağlar ve aynı zamanda sıcak bir radyan ısıtma etkisi yaratır.',
             thick: "kalınlık",
             annualrepairs: "Yıllık onarım gerektirmez",
             surfaceheating: "Tam yüzey ısıtması",
@@ -85,14 +85,14 @@ window.lang = {
     },
     ubisys:{
         ubisyssection1h2:"Büyük avantajları olan yenilikçi teknoloji.",
-        ubisyssection1p1:"Kablosuz teknoloji sayesinde, Ubisys Akıllı Ev retrofit çözümü için idealdir ve mevcut binalar için de uygun hale getirilmiştir. Retrofit yapmanın yanı sıra, teknoloji daha fazla avantaj sunar: maliyet azaltma, planlama esnekliği, sürdürülebilirlik vb.",
+        ubisyssection1p1:"Kablosuz teknoloji sayesinde, ubisys Akıllı Ev, mevcut binalar için ideal bir retrofit çözümüdür. Retrofit çözümüne ek olarak, teknoloji maliyet tasarrufu, planlamada esneklik, sürdürülebilirlik vb. gibi başka avantajlar da sunmaktadır.",
         ubisyssection2h2:"Akıllı Ev Uygulaması",
-        ubisyssection2h4:"Evdeki her şeyi her zaman ve her yerde görebilirsiniz.",
-        ubisyssection2p1:"Evini akıllı telefon veya tablet aracılığıyla kontrol edin ve izleyin.",
+        ubisyssection2h4:"Evinizdeki her şeyi her zaman ve her yerde görebilirsiniz.",
+        ubisyssection2p1:"Evinizi akıllı telefon veya tablet aracılığıyla kontrol edin ve izleyin.",
         ubisystab2:"Sistem Genel Bakışı",
         ubisystab1h3:"Görünmez Akıllı Ev'iniz.",
-        ubisystab1p1:"Ubisys Akıllı Ev, öncelikle çift yönlü bir çözümdür. Bileşenler retrofit edilebilir ve anahtarlarınızın veya düğmelerinizin arkasında gizlenirler.",
-        ubisystab1Installationp1:"Ubisys çift yönlü bileşenleri, herhangi bir ışık anahtarının, düğmesinin veya prizin arkasına da monte edilebilir - mevcut anahtar ve prizlerinizi yenilemenize gerek yoktur. Özellikle kompakt tasarım, kurulumu kolaylaştırır.",
+        ubisystab1p1:"Ubisys Akıllı Ev çözümü öncelikle yüzeye bütünleştirilmiş bir çözümdür. Bileşenler sonradan monte edilebilir ve anahtarlarınızın veya düğmelerinizin arkasında gizlenerek kaybolurlar.",
+        ubisystab1Installationp1:"Ubisys yüzeye bütünleştirilmiş bileşenleri, herhangi bir ışık anahtarı, düğme veya prizin arkasına, aynı zamanda duvar veya tavana yerleştirilebilir - Mevcut anahtar ve prizleri yenilemeye gerek yoktur. Özellikle kompakt tasarım, kurulumu kolaylaştırır.",
         Advantages:"Avantajlar",
         Minimalsize:"Minimal boyut",
         ubisysminimalsizep1:"Miniaturizasyon sayesinde, cihazlar kolayca retrofit edilebilir.",
@@ -102,13 +102,13 @@ window.lang = {
         ubisysFlexibilityp1:"Retrofit yaparken, planlama aşamasında bile esnek olursunuz.",
         productranges:"Anahtar ürün yelpazesi",
         ubisysproductrangesP1:"Bileşenler, anahtar ürün yelpazesine bakılmaksızın monte edilebilir.",
-        retrofitting:"Bireysel retrofit",
+        retrofitting:"Bireysel sonradan monte etme",
         ubisysretrofittingp1:"İhtiyaca ve bütçeye göre ek bileşenlerle sisteminizi adım adım yükseltin.",
         mounteddevices:"Ray montajlı cihazlar",
-        ubisysmounteddevicesp1:"Flush-mounted sürümleri kontrol kabini için DIN raylı cihazlar olarak da mevcuttur.",
+        ubisysmounteddevicesp1:"Yüzeye bütünleştirilmiş versiyonlar, kontrol dolabı için DIN raylı montaj cihazları olarak da mevcuttur.",
 
         ubisystab2h3:"Ubisys Akıllı Ev'iniz nasıl kurulur?",
-        ubisystab2h32:"İşte nasıl çalışır:",
+        ubisystab2h32:"Nasıl çalışır:",
         ubisystab2p1:"Ubisys'in akıllı sistemi, elektrikli cihazlarınızı kablosuz olarak birbirine bağlar. Bu sayede, birden fazla cihaz aynı anda kontrol edilip izlenebilir. İnternet bağlantısı aracılığıyla, hareket halindeyken erişim de mümkündür.",
         ubisystab2howworks1p:"Ubisys gateway'ini DSL / UMTS / LTE yönlendiricinize bağlayın.",
         ubisystab2howworks1:"1. Gateway bağlantısı",
