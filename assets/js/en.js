@@ -1,7 +1,7 @@
 window.lang = {
     greenotek: "GreenoTek",
     indexbannerh1: "GreenoTek Smart Systems",
-    indexbannertext: "Smart, Wireless Home and Office Systems",
+    indexbannertext: "Smart, wireless Home and Office 'Automation' systems",
     moredetail: "Get More Details",
 
     navbar:{
@@ -14,7 +14,7 @@ window.lang = {
     indexsection1:{
         h2: "Smart Home and Office Systems",
         p1:"Make all your space smart wirelessly, without extra wiring costs and construction work.",
-        p2:"Control your key/power, air conditioning, floor heating, lighting, and security systems from your phone. You can operate them through the Ubisys application or via Apple Home.",
+        p2:"You can control your switches, outlets, air conditioning, underfloor heating system, lighting, and security systems from your phone. You can operate these systems through the Ubisys application or Apple Home.",
         h6: "Application Areas",
         li1:"Smart system installation and commissioning for existing residential/apartment",
         li2:"Smart system installation and commissioning for new buildings",

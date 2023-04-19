@@ -1,7 +1,7 @@
 window.lang = {
     greenotek: "GreenoTek",
     indexbannerh1: "Akıllı Sistemler",
-    indexbannertext: "Akıllı, Kablosuz Ev ve Ofis Sistemleri",
+    indexbannertext: "Akıllı, kablosuz Ev ve Ofis “Otomasyon” sistemleri",
     moredetail: "Daha Fazla Bilgi Alın",
 
     navbar:{
@@ -14,7 +14,7 @@ window.lang = {
     indexsection1:{
         h2: "Akıllı Ev ve Ofis Sistemleri",
         p1:"Kablosuz şekilde, ek kablolama masrafı ve kırım işleri olmadan tüm alanınızı akıllı hale getirebilirsiniz.",
-        p2:"Anahtar/prizden, klimaya, yerden ısıtma sistemine, aydınlatmalara, güvenlik sisteminizi telefonunuzdan kontrol edin. Ubisys’in uygulaması ile ya da Apple Home üzerinden çalıştırabilirsiniz.",
+        p2:"Anahtarları, prizleri, klimayı, yerden ısıtma sistemini, aydınlatmayı ve güvenlik sistemlerinizi telefonunuzdan kontrol edebilirsiniz. Ubisys uygulaması veya Apple Home üzerinden bu sistemleri çalıştırabilirsiniz.",
         h6: "Uygulama Alanları",
         li1:"Mevcut konut/daire akıllı sistem kurulumu ve devreye alınması",
         li2:"Yeni binaların akıllı sistem kurulumu ve devreye alınması",

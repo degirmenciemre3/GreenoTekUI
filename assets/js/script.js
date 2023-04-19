@@ -10,7 +10,30 @@ function loadScript(language) {
   scriptlang.src = "assets/js/language.js";
   document.body.appendChild(scriptlang);
 }
+
+//carousel değiştikçe yazıyı değiştir
+var caption = document.getElementById("caption");
+$('.carousel').on('slid.bs.carousel', function () {
+  let currentSlide = $(this).find('.active');
+  var newCaption = "";
+  let savedLanguage = localStorage.getItem("language");
+  if(savedLanguage){
+    if(savedLanguage === 'EN'){
+      newCaption = currentSlide.data("captionen");
+    }
+    else{
+      newCaption = currentSlide.data("captiontr");
+    }
+  }else{
+    newCaption = currentSlide.data("captiontr");
+  }
+  
+  caption.innerHTML = newCaption;
+});
+
 $(document).ready(function () {
+  
+
   // Carousel İçin Glide.js Kullanımı
     var glide = new Glide(".glide", {
         type: "carousel",
