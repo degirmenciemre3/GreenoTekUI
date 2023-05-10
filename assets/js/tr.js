@@ -13,8 +13,8 @@ window.lang = {
     },
     indexsection1:{
         h2: "Akıllı Ev ve Ofis Sistemleri",
-        p1:"Kablosuz şekilde, ek kablolama masrafı ve kırım işleri olmadan tüm alanınızı akıllı hale getirebilirsiniz.",
-        p2:"Anahtarları, prizleri, klimayı, yerden ısıtma sistemini, aydınlatmayı ve güvenlik sistemlerinizi telefonunuzdan kontrol edebilirsiniz. Ubisys uygulaması veya Apple Home üzerinden bu sistemleri çalıştırabilirsiniz.",
+        p1:"Ubisys’in çözümleri ile, tüm alanlarınızı kablosuz şekilde, en gelişmiş teknoloji ile akıllı hale getirebilirsiniz. Üstelik sunmuş olduğumuz çözüm sayesinde ek kablolama ya da  tamir/tadilat masrafları ile karşılaşmayacaksınız.",
+        p2:"Anahtar, priz, klima, yerden ısıtma sistemi, ısınma petekleri, aydınlatmalar ve güvenlik sistemlerinizi telefonunuzdan Ubisys’in uygulaması ya da Apple Home ile kontrol edebilirsiniz tamamen kablosuz şekilde kontrol edebilirsiniz. Evinizde olmadığınızda her şeyin yolunda olduğundan emin olabilirsiniz.",
         h6: "Uygulama Alanları",
         li1:"Mevcut konut/daire akıllı sistem kurulumu ve devreye alınması",
         li2:"Yeni binaların akıllı sistem kurulumu ve devreye alınması",
@@ -23,7 +23,7 @@ window.lang = {
     distributortext:"Türkiye Distribütörü Olduğumuz Firmalar",
     indexsection2:{
         h2:"Akıllı Isınma Sistemleri",
-        p1:"Karbondan yapılmış özel ısınma sistemi ile, alanlarınızı minimum tadilat ve maliyet ile en sağlıklı şekilde ısıtabilmenizi sağlıyoruz.",
+        p1:"Karbondan yapılmış özel ısınma sistemi çözümü ile; evinizi, iş yerinizi, otelinizi tadilatsız şekilde ve gerçekçi maliyetler ile en sağlıklı şekilde ısınmasını sağlıyoruz.",
         p2:"Kağıt kalınlığında özel mühendislik ürünü olan bu karbon ısıtma sistemini, dilerseniz;",
         li1:"Yerden ısıtma olarak direkt parke ve seramik altında",
         li2:"Duvar ve tavanda da aynı şekilde sıva ve boyanın altında kalacak şekilde kullanabilirsiniz.",

@@ -179,11 +179,13 @@ h6 {
         visibility: visible;
         width: 100%;
     }
-
     .navbar a:hover,
+    .navbar li:hover>a{
+        color: var(--color-primary);
+    }
     .navbar .active,
-    .navbar .active:focus,
-    .navbar li:hover>a {
+    .navbar .active:focus
+     {
         color: #fff;
     }
 
@@ -220,7 +222,8 @@ h6 {
 
     .navbar .dropdown ul a:hover,
     .navbar .dropdown ul .active:hover,
-    .navbar .dropdown ul li:hover>a {
+    .navbar .dropdown ul li:hover>a,
+    .navbar .dropdown ul li a:hover{
         color: var(--color-primary);
     }
 

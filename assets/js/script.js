@@ -1,7 +1,6 @@
 
 //language
 function loadScript(language) {
-  console.log(language);
   var script = document.createElement('script');
   script.src = language === 'TR' ? 'assets/js/tr.js' : 'assets/js/en.js';
   document.body.appendChild(script);

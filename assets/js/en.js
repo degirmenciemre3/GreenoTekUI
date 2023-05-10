@@ -13,8 +13,8 @@ window.lang = {
     },
     indexsection1:{
         h2: "Smart Home and Office Systems",
-        p1:"Make all your space smart wirelessly, without extra wiring costs and construction work.",
-        p2:"You can control your switches, outlets, air conditioning, underfloor heating system, lighting, and security systems from your phone. You can operate these systems through the Ubisys application or Apple Home.",
+        p1:"With Ubisys solutions, you can make all your areas smart with the most advanced technology, wirelessly. Moreover, thanks to the solution we offer, you will not encounter any additional wiring or repair/renovation expenses.",
+        p2:"You can control your keys, sockets, air conditioning, underfloor heating system, radiators, lighting, and security systems wirelessly through Ubisys' application or Apple Home from your phone. You can be sure that everything is in order when you are not at home.",
         h6: "Application Areas",
         li1:"Smart system installation and commissioning for existing residential/apartment",
         li2:"Smart system installation and commissioning for new buildings",
@@ -23,7 +23,7 @@ window.lang = {
     distributortext:"Companies We Are Distributors for in Turkey",
     indexsection2:{
         h2:"Smart Heating Systems",
-        p1:"We provide you with the special heating system made of carbon to heat your spaces in the healthiest way with minimum renovation and cost.",
+        p1:"With a special heating system solution made of carbon, we ensure the most healthy and cost-effective way of heating your home, workplace, or hotel without the need for renovations.",
         p2:"You can use this carbon heating system, which is an engineering product with paper thickness, as;",
         li1:"Under the parquet and ceramic as underfloor heating directly",
         li2:"On the wall and ceiling as plaster and paint will remain underneath.",
