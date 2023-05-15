@@ -44,7 +44,7 @@ window.lang = {
     },
 
     footer:{
-        aboutusdetail:"Biz Akıllı Ev Sistemleri olarak 2023 yılından bu yana ev otomasyon sistemleri konusunda hizmet vermekteyiz. Amacımız müşterilerimizin evlerini daha konforlu ve güvenli hale getirmektir.",
+        aboutusdetail:`Biz <b><a href="index.html">GreenoTek</a></b> olarak ev otomasyon sistemleri konusunda hizmet vermekteyiz. Amacımız müşterilerimizin evlerini daha konforlu ve güvenli hale getirmektir.`,
         subscribe:"Bültenimize Abone Olun",
         mailplaceholder:"E-posta adresinizi girin",
         copyright:'© 2023 <b><a href="index.html">GreenoTek</a></b> Tüm hakları saklıdır.',
@@ -58,6 +58,7 @@ window.lang = {
         contactmessage:"Mesaj",
         contactsubmit:"Gönder",
         contactinfo:"İletişim Bilgilerimiz",
+        information:"Bilgi Almak İstiyorum!"
     },
     laminaheat:{
         bannerh5:'RADYANT KONFORLU <span class="text-green">ISINMA</span>',

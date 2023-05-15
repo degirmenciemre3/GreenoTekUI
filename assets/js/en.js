@@ -44,7 +44,7 @@ window.lang = {
     },
 
     footer:{
-        aboutusdetail:"We have been providing services on home automation systems since 2023 as Smart Home Systems. Our goal is to make our customers' homes more comfortable and safe.",
+        aboutusdetail:`As <b><a href="index.html">GreenoTek</a></b>, we provide services in home automation systems. Our goal is to make our customers' homes more comfortable and secure.`,
         subscribe:"Subscribe to Our Newsletter",
         mailplaceholder:"Enter your email address",
         copyright:'© 2023 <b><a href="index.html">GreenoTek</a></b> All rights reserved.',
@@ -58,6 +58,7 @@ window.lang = {
         contactmessage:"Message",
         contactsubmit:"Submit",
         contactinfo:"Contact Information",
+        information:"I want to get information!"
     },
 
     laminaheat:{

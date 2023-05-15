@@ -40,7 +40,7 @@ $(document).ready(function() {
     $(".carbonHeatingSystems").text(lang.solution.carbonHeatingSystems);
     $(".carbonHeatingSystemstext").text(lang.solution.carbonHeatingSystemstext);
 
-    $(".footaboutusdetail").text(lang.footer.aboutusdetail);
+    $(".footaboutusdetail").html(lang.footer.aboutusdetail);
     $(".aboutforubisys").text(lang.footer.aboutforubisys);
     $(".footsubscribe").text(lang.footer.subscribe);
     $(".mailplaceholder").attr("placeholder",lang.footer.mailplaceholder);
@@ -48,6 +48,7 @@ $(document).ready(function() {
     $(".copyright").html(lang.footer.copyright);
 
     $(".centeroffice").text(lang.contact.centeroffice);
+    $(".information").text(lang.contact.information);
     $(".contactp1").text(lang.contact.p1);
     $(".nameplaceholder").attr("placeholder",lang.contact.nameplaceholder);
     $(".contactmessage").attr("placeholder",lang.contact.contactmessage);
