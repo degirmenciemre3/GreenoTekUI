@@ -40,8 +40,8 @@ $(document).ready(function() {
     $(".carbonHeatingSystems").text(lang.solution.carbonHeatingSystems);
     $(".carbonHeatingSystemstext").text(lang.solution.carbonHeatingSystemstext);
 
-    
     $(".footaboutusdetail").text(lang.footer.aboutusdetail);
+    $(".aboutforubisys").text(lang.footer.aboutforubisys);
     $(".footsubscribe").text(lang.footer.subscribe);
     $(".mailplaceholder").attr("placeholder",lang.footer.mailplaceholder);
 
