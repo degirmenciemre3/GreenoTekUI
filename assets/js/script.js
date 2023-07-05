@@ -93,6 +93,19 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 1,
+    loop: false,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: false,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
 // AOS Kullanımı
 AOS.init();
 
