@@ -9,6 +9,9 @@ body {
    background-color: var(--costum-blue); 
 }
 
+.bg-dark-green{
+    background-color: var(--dark_green);
+}
 
 .bg-Sea-Foam-Green{
     background-color: var(--Sea-Foam-Green);
@@ -16,6 +19,10 @@ body {
 
 .bg-light-blue{
     background-color: var(--light-blue);
+}
+
+.color-dark-green{
+    color: var(--dark_green);
 }
 
 .color-light-blue{

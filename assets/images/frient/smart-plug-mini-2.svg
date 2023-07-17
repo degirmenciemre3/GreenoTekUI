@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: #00488e;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-width: .95px;
+      }
+
+      .cls-3 {
+        stroke-width: .9px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.13px;
+      }
+
+      .cls-5 {
+        stroke-width: 4px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-miterlimit: 3.86;
+      }
+
+      .cls-8 {
+        fill: #a3c2e6;
+        font-family: Circe-Bold, Circe;
+        font-size: 37px;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        fill: #00488e;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="m200.49,973.8h505.02"/>
+    <g>
+      <path class="cls-3" d="m200,995.12v-45.59"/>
+      <path class="cls-3" d="m706,995.12v-45.59"/>
+    </g>
+  </g>
+  <g>
+    <path class="cls-2" d="m1077.55,973.8h564.9"/>
+    <g>
+      <path class="cls-2" d="m1077,995.12v-45.59"/>
+      <path class="cls-2" d="m1643,995.12v-45.59"/>
+    </g>
+  </g>
+  <g>
+    <path class="cls-4" d="m830.39,781.51c0-168.34,0-336.68,0-505.02"/>
+    <g>
+      <path class="cls-4" d="m851.72,782c-15.2,0-30.39,0-45.59,0"/>
+      <path class="cls-4" d="m851.72,276c-15.2,0-30.39,0-45.59,0"/>
+    </g>
+  </g>
+  <rect class="cls-7" x="369.6" y="939.1" width="164.5" height="69.71" rx="21" ry="21"/>
+  <text class="cls-8" transform="translate(401.86 984.58) scale(.98 1)"><tspan x="0" y="0">41 mm</tspan></text>
+  <rect class="cls-7" x="1278.6" y="939.1" width="164.5" height="69.71" rx="21" ry="21"/>
+  <text class="cls-8" transform="translate(1308.59 984.58) scale(.98 1)"><tspan x="0" y="0">45 mm</tspan></text>
+  <rect class="cls-7" x="746.29" y="496.74" width="164.5" height="69.71" rx="21" ry="21" transform="translate(296.94 1360.13) rotate(-90)"/>
+  <text class="cls-8" transform="translate(839.16 581.59) rotate(-90) scale(.98 1)"><tspan x="0" y="0">41 mm</tspan></text>
+  <g>
+    <circle class="cls-5" cx="453.07" cy="528.92" r="252.92"/>
+    <path class="cls-6" d="m305.4,528.92c0-16.95,13.74-30.7,30.71-30.7s30.69,13.75,30.69,30.7-13.74,30.7-30.69,30.7-30.71-13.75-30.71-30.7Z"/>
+    <path class="cls-6" d="m539.34,528.92c0-16.95,13.75-30.7,30.71-30.7s30.7,13.75,30.7,30.7-13.74,30.7-30.7,30.7-30.71-13.75-30.71-30.7Z"/>
+  </g>
+  <g>
+    <path class="cls-6" d="m1646.3,497.45h196.72c6.3,0,12.34,2.48,16.48,6.91,3.92,4.2,7.89,10.29,8.89,18.31,1.17,9.39-2.08,18.78-8.61,26.07-4.15,4.63-10.33,7.26-16.8,7.26h-196.67c-12.16,0-22.03-9.21-22.03-20.56v-17.43c0-11.36,9.86-20.56,22.03-20.56Z"/>
+    <path class="cls-5" d="m1593.46,753.07c11.42-.41,21.17-8.37,23.84-19.49,12.51-52.11,23.37-118.46,24.09-195.59.78-84.23-10.76-156.2-24.01-211.48-2.7-11.26-12.63-19.3-24.21-19.55-76.27-1.63-152.53-3.26-228.8-4.89-3.26-.07-6.48-.77-9.48-2.05l-22.84-9.79c-2.75-1.18-5.68-1.86-8.66-2.02l-220.92-11.84c-14.57-.78-26.8,10.82-26.8,25.41v454.96c0,14.37,11.9,25.89,26.26,25.43l221.31-7.11c3.08-.1,6.12-.76,8.97-1.94l23.86-9.94c2.82-1.17,5.83-1.83,8.88-1.94l228.52-8.16Z"/>
+  </g>
+  <circle class="cls-1" cx="1325.28" cy="419.53" r="29.54"/>
+</svg>

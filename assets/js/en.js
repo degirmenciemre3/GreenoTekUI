@@ -145,5 +145,88 @@ window.lang = {
             sensors and visualized in the form of graphs and charts.`,
             DashboardScreenshot:"Dashboard Screenshot",
         }
+    },
+    frient:
+    {
+        frienth3header1:"The shortcut to peace of mind",
+        frientpheader1:"Imagine always having a frient who looks out for what matters most to you. You know, someone who keeps your loved ones safe and comfortable. A frient who safeguards your home - and someone who leads you on the path to a greener everyday life. Now that’s a frient!",
+
+        frienth3header2:"Where to buy frient",
+        frientpheader2:"You've probably always learned that you can't buy friends. Well, now you can buy frients. Take a look at where.",
+        getyourfrientbtn:"Get your Frient today",
+
+        frienth3header3:"Are you in control of your home?",
+        frientpheader3:"Gain remote control of your electrical appliances by connecting them with the Smart Plug Mini 2. As if that’s not enough, you’ll also be able to track your electricity consumption anywhere and anytime.",
+        smartplugmini2btn:"Meet the Smart Plug Mini 2",
+
+        frienth3header4:"Electricity Meter Interface 2 launching soon...",
+        frientpheader4:"The Electricity Meter Interface is a popular frient and is currently sold out in most shops. But a new and improved electricity tracking frient will soon take its place.",
+
+        frienth3header5:"Meet the Smart Plug Mini 2",
+        frientpheader5:"New frient alert: the Smart Plug Mini 2 is a small smart plug with energy monitoring. It's perfect for home automation, remote control, and reducing your energy costs.",
+        meetnewfrient:"Meet the new frient",
+
+        hqsmartphoneprod:"High-quality smart home products",
+        hqsmartp1:"Frients are high-quality wireless devices that help you look after your home and automate your everyday life.",
+        hqsmartp2:"Use the friently sensors and alarms to control your home remotely and monitor your energy consumption. If you have elderly relatives living alone, frients can help you watch over them and give you peace of mind that your loved ones are safe.",
+        
+        sayhellofrient:"Say hello to your new Frient",
+        sayhellofrientp:"Do you need a frient to keep an eye on your home at all times, someone to warn you in case of an emergency, or someone to help you lower your electricity consumption? Find the frients that match your needs.",
+        newfriendtships:"FORM NEW FRIENTSHIPS",
+
+        sayhellotoFrient:"Say hello to Frient!",
+        PromotionalVideo:"Watch Promotional Video",
+
+        daywithfrient:"A day with a Frient",
+        daywithfrientp:"Experience how the right frients will make your everyday life more comfortable, secure, and greener.",
+        daywithfrienta:"START A FRIENTLY DAY",
+
+        friendsoffrient:"Friends of Frient",
+        friendsoffrientp:"People talking about you is not always a bad thing.",
+
+        easysetup:"Easy to set up",
+        easysetupp:`"Hi! I bought your system with a total of 16 Intelligent Smoke Alarms, 1 Intelligent
+        Heat Alarm, and 1 Smart Humidity Sensor. I am really pleased with how easy the
+        system is to set up. So simple!!!" - Pål L. from Norway`,
+
+        workswellzigbee:"Works well with Zigbee",
+        workswellzigbeep:`"In contrast to the cheaper versions from China, the Water Leak Detector is a product
+        that is really Zigbee compliant and works. Recommended." - Thijs from the
+        Netherlands`,
+
+        greatmotionsensor:"Great Motion Sensor",
+        greatmotionsensorp:`"Great Support and great Motion Sensor! Tried other PIRs before that did not function
+        all the time." - Guido W. from Germany`,
+
+        onoffonoff:"On, off, on, off",
+        imaginehaving:"Imagine having a frient who assists you in controlling your electrical devices and reducing your electricity usage. Someone who turns on your appliances when you want to use them and turns them off when not, ultimately helping you save money.",
+        nowthatsafrient:"Now that’s a frient!",
+        takechargeof:"Take charge of home and your electricity consumption",
+        takechargeofp1:"Do you want to get control of the electronics in your home and save money on your electricity consumption?",
+        takechargeofp2:"The Smart Plug Mini 2 is the perfect solution - it's a combination of an electricity consumption tracker and switch. Simply plug it into a power outlet and connect any electrical appliance.",
+        takechargeofp3:"Want to know how much electricity you used while watching TV? Your frient, the Smart Plug Mini 2, will provide you with an overview on your phone. And if you want to turn off the lights while watching TV, you don't even have to leave the couch - just use your phone to do it.",
+        thatswhatfrients:"That's what frients are for",
+        lettingyou:"Letting you control your appliances",
+        remoteonoff:"Remote on/off switching",
+        trackingyour:"Tracking your electricity consumption",
+        automateyourhome:"Automate your home",
+        automateyourhomep1:"The Smart Plug Mini 2 aims to please - by helping you automate your home. This simplifies your daily routines and makes your life as carefree as possible.",
+        automateyourhomep2:"For instance, you can schedule your lights to turn on at a specific time, even when you are away on vacation.",
+        automateyourhomep3:"This not only adds convenience but also provides added security by deterring potential intruders from entering your home while you are away.",
+        bigsavings:"Big savings, small product",
+        bigsavingsp1:"Lower your electricity usage with a helping hand and free up your budget for more fun things, instead of just electricity bills.",
+        bigsavingsp2:"Do you have thirsty electrical appliances at home? With the Smart Plug Mini 2, you avoid standby consumption – without having to unplug your appliances all the time.",
+        bigsavingsp3:"And as a bonus, you're helping the environment too!",
+        plugtypes:"Plug types",
+        whichplug:"Which plug type is compatible with your power sockets?",
+        typefschuko:"Type F (Schuko)",
+        moreplugtypes:"(more plug types coming soon)",
+        loweryourelectricity:"Lower your electricity consumption and save money",
+        Specifications:"Specifications",
+        Communicationprotocol:"Communication protocol: Zigbee 3.0",
+        powersupply:"Power supply: 230V +/-10%",
+        ipclass:"IP class: IP40",
+        Operationtemperature:"Operation temperature 0 to +50°C",
+        plugcolor:"Color: White",
     }
 };

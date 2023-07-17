@@ -1,6 +1,6 @@
 
 //language
-function loadScript(language) {
+async function loadScript(language) {
   var script = document.createElement('script');
   script.src = language === 'TR' ? 'assets/js/tr.js' : 'assets/js/en.js';
   document.body.appendChild(script);
@@ -30,7 +30,7 @@ $('.carousel').on('slid.bs.carousel', function () {
   caption.innerHTML = newCaption;
 });
 
-$(document).ready(function () {
+$(document).ready(async function () {
   
 
   // Carousel İçin Glide.js Kullanımı
@@ -73,7 +73,7 @@ $(document).ready(function () {
     }, 500);
     });
 
-    loadScript(savedLanguage === '' || savedLanguage === null ? "TR" : savedLanguage);
+    await loadScript(savedLanguage === '' || savedLanguage === null ? "TR" : savedLanguage);
     
 });
 
